@@ -1,0 +1,19 @@
+# Composer Files
+lib/vendor/*
+!lib/vendor/.gitkeep
+composer.lock
+
+# Server
+.htaccess
+
+# CMS (Wordpress) Ignores
+cms/wp
+cms/content/uploads/*
+!cms/content/uploads/.gitkeep
+cms/content/plugins/*
+!cms/content/plugins/.gitkeep
+cms/content/mu-plugins/*
+!cms/content/mu-plugins/gemini-init.php
+
+# Configured Files
+cms/wp-config.php
